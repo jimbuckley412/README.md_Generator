@@ -1,0 +1,65 @@
+/* Reset some default styles for better consistency across browsers */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and set default font styles */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Style the main content area */
+.main-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style form elements */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  displ
